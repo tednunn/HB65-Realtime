@@ -4,7 +4,8 @@
    <<< Use board ESP32 Arduino > DOIT ESP32 DEVKIT V1 >>>
    **** Don't upgrade the ESP32 board manager file - use version 1.0.6 ****
 
-   v4 - Added code to check for Wifi disconnect and restart, if necessary. Added code for NTP time check.
+   v4 - Added code to check for Wifi disconnect and restart, if necessary. 
+   -   Added code for NTP time check.
    
    v3 - Modified logic for rounding temps to integers
    
