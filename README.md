@@ -4,15 +4,17 @@
    <<< Use board ESP32 Arduino > DOIT ESP32 DEVKIT V1 >>>
    **** Don't upgrade the ESP32 board manager file - use version 1.0.6 ****
 
-   v4 - Added code to check for Wifi disconnect and restart, if necessary.
-      Added code for NTP time check
+   v4 - Added code to check for Wifi disconnect and restart, if necessary. Added code for NTP time check.
+   
    v3 - Modified logic for rounding temps to integers
+   
    v2 - Modified July 20, 2021 by Ted Nunn
    - Removed LCD code (see below) and merged with SmartMatrix display
    - Adapted for ESP32 vs. ESP8266
    - Changed to use zip code in US vs. city code
    - Modified data displayed to show local temp. and "Feels Like" temp.
    - http://api.openweathermap.org/data/2.5/weather?zip=78217,us&units=imperial&appid=20a51562fb744c129d3b52285a23191c
+   
    v1 - Modified July 15, 2021 by Ted Nunn
    - Per "Dragongears" input, include Wire.h and set Wire.begin(14, 13) instead of customizing RTClib.h
    - Per "TimGTech" input, added code to update the time in void setup()
