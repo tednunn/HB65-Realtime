@@ -1,7 +1,11 @@
    HackerBox 0065 Clock Demo for 64x32 LED Array
+   
+   https://www.instructables.com/HackerBox-0065-Realtime/
+   
    Adapted from SmartMatrix example file
 
    <<< Use board ESP32 Arduino > DOIT ESP32 DEVKIT V1 >>>
+   
    **** Don't upgrade the ESP32 board manager file - use version 1.0.6 ****
 
    v4 - Added code to check for Wifi disconnect and restart, if necessary. 
@@ -36,5 +40,6 @@
    - Adjusted for NodeMCU 1.0
    
    Original project idea and code by Emmanuel Odunlade.
+   
    Complete Project Details https://randomnerdtutorials.com/esp8266-weather-forecaster/
    
